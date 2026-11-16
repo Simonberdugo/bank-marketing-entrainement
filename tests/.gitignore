@@ -1,0 +1,10 @@
+# Dossiers de dépendances
+node_modules/
+vendor/
+
+# Fichiers d'environnement (secrets)
+.env
+
+# Fichiers systèmes
+.DS_Store
+Thumbs.db
