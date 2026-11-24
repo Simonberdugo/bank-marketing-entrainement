@@ -1,8 +1,8 @@
 import pandera.pandas as pa
 import pytest
 
-from mlops_projet.data.load import load_bank_data
-from mlops_projet.data.schema import validate_bank_data
+from src.mlops_projet.data.load import load_bank_data
+from src.mlops_projet.data.schema import validate_bank_data
 
 
 @pytest.fixture
