@@ -1,0 +1,7 @@
+services:
+  mon_projet_python:
+    build: .
+    volumes:
+      # Le chemin avant les ":" correspond à votre ordinateur (le dossier actuel ".")
+      # Le chemin après les ":" correspond à l'intérieur du conteneur
+      - .:/python_project
